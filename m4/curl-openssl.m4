@@ -431,7 +431,7 @@ if test "$OPENSSL_ENABLED" = "1"; then
   AC_MSG_CHECKING([for QUIC support in OpenSSL])
   AC_LINK_IFELSE([
     AC_LANG_PROGRAM([[
-#include <openssl/ssl.h>
+#include <openssl/quic.h>
     ]],[[
       OSSL_QUIC_client_method();
     ]])
