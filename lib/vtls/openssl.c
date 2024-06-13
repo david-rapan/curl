@@ -65,6 +65,7 @@
 #include "curl_printf.h"
 
 #include <openssl/ssl.h>
+#include <openssl/quic.h>
 #include <openssl/rand.h>
 #include <openssl/x509v3.h>
 #ifndef OPENSSL_NO_DSA
